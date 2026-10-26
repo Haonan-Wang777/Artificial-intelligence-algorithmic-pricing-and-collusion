@@ -1,6 +1,0 @@
-{
-  "name": "four_firms_extended",
-  "description": "Follow-up to 8/10 censored four-firm sessions at 10M cap. Repeat all same ten seeds with original paper 1B cap; retain the initial run without replacing it.",
-  "settings": {"sessions": 10, "seed_start": 20261023, "stable_periods": 100000, "max_periods": 1000000000, "sample_every": 1000000, "save_q_first": 0},
-  "scenarios": [{"name": "four_firms", "alpha": 0.15, "beta": 0.000004, "game": {"costs": [1,1,1,1], "quality": [2,2,2,2]}}]
-}
