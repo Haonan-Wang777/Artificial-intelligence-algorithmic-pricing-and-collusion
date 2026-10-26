@@ -1,0 +1,11 @@
+metric,paper,reproduced,signed_error,absolute_error,relative_error,source,note
+mean_delta,0.849,0.84872,-0.00027999999999994696,0.00027999999999994696,0.00032979976442867724,"Table 1, All column, p.3277",
+std_delta,0.112,0.11198,-2.0000000000006124e-05,2.0000000000006124e-05,0.00017857142857148324,"Table 1, All column, p.3277",Native sePrGain is population SD; recomputed sample SD retained separately
+symmetric_fixed_frequency,0.277,0.277,0.0,0.0,0.0,"Table 1, All column, p.3277",
+asymmetric_fixed_frequency,0.366,0.366,0.0,0.0,0.0,"Table 1, All column, p.3277",
+fixed_price_frequency,0.643,0.643,0.0,0.0,0.0,"Table 1, All column, p.3277",
+two_cycle_frequency,0.238,0.238,0.0,0.0,0.0,"Table 1, All column, p.3277",
+long_cycle_frequency,0.119,0.119,0.0,0.0,0.0,"Table 1, All column, p.3277",
+equilibrium_frequency,0.505,0.505,0.0,0.0,0.0,"Table 1, All column, p.3277",
+q_loss_on_path,0.002,0.0016566113464258913,-0.0003433886535741087,0.0003433886535741087,0.17169432678705435,"Table 1, All column, p.3277",
+q_loss_off_path,0.018,0.018289436903491125,0.0002894369034911262,0.0002894369034911262,0.016079827971729237,"Table 1, All column, p.3277",Printed All States label uses off-path in original R

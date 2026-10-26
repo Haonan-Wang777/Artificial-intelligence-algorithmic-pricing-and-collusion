@@ -1,0 +1,35 @@
+{
+  "available": true,
+  "compared_sessions": 2,
+  "all_equal": true,
+  "sessions": [
+    {
+      "session": 1,
+      "all_equal": true,
+      "checks": {
+        "policy": true,
+        "cycle_states": true,
+        "cycle_actions": true,
+        "printed_profits": true,
+        "episodes": true,
+        "converged": true
+      }
+    },
+    {
+      "session": 2,
+      "all_equal": true,
+      "checks": {
+        "policy": true,
+        "cycle_states": true,
+        "cycle_actions": true,
+        "printed_profits": true,
+        "episodes": true,
+        "converged": true
+      }
+    }
+  ],
+  "smoke_info_sha256": "3beaaddb486bff3860e1f1a3eeb7a04ff612528af2e6afd565ff2a6128558740",
+  "baseline_info_sha256": "fb44af322c9c08734a1070bd0943347f9bf2f0739a844e19f7a71391e375cdc3",
+  "smoke_cores": 1,
+  "baseline_cores": 3
+}

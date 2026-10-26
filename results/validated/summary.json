@@ -1,0 +1,421 @@
+{
+  "baseline": {
+    "sessions": 1000,
+    "converged": 1000,
+    "censored": 0,
+    "mean_delta": 0.8491245512818657,
+    "std_delta": 0.11206550019110999,
+    "ci95_delta": [
+      0.8421703618962327,
+      0.8560787406674987
+    ],
+    "mean_steps": 1855932.563,
+    "max_steps": 3124788,
+    "mean_price": [
+      1.7937086982385453,
+      1.792489258810934
+    ],
+    "mean_profit": [
+      0.31976071412568774,
+      0.32065047558579923
+    ],
+    "fixed_price_frequency": 0.62,
+    "symmetric_fixed_frequency": 0.273,
+    "two_cycle_frequency": 0.256,
+    "long_cycle_frequency": 0.124,
+    "equilibrium_frequency": 0.002,
+    "q_loss_on_path": 0.13084452468687216,
+    "q_loss_all_states": 0.15222938240233827,
+    "max_bellman_residual": 9.49906819869284e-12,
+    "incentive_compatible_frequency": 0.922,
+    "alpha": 0.15,
+    "beta": 4e-06,
+    "game": {}
+  },
+  "grid_a005_b004": {
+    "sessions": 30,
+    "converged": 30,
+    "censored": 0,
+    "mean_delta": 0.8601514666160153,
+    "std_delta": 0.06292028214226957,
+    "ci95_delta": [
+      0.8366566471375407,
+      0.8836462860944898
+    ],
+    "mean_steps": 1625244.4,
+    "max_steps": 2581856,
+    "mean_price": [
+      1.782605353830098,
+      1.7861356823288548
+    ],
+    "mean_profit": [
+      0.3227590359857241,
+      0.3201787243601749
+    ],
+    "fixed_price_frequency": 0.5666666666666667,
+    "symmetric_fixed_frequency": 0.5666666666666667,
+    "two_cycle_frequency": 0.3,
+    "long_cycle_frequency": 0.13333333333333333,
+    "equilibrium_frequency": 0.0,
+    "q_loss_on_path": 0.11681361240625697,
+    "q_loss_all_states": 0.1293806650642341,
+    "max_bellman_residual": 9.478640095039736e-12,
+    "incentive_compatible_frequency": 0.9,
+    "alpha": 0.05,
+    "beta": 4e-06,
+    "game": {}
+  },
+  "grid_a005_b010": {
+    "sessions": 30,
+    "converged": 30,
+    "censored": 0,
+    "mean_delta": 0.7789149800751124,
+    "std_delta": 0.029800548353358127,
+    "ci95_delta": [
+      0.767787272441212,
+      0.7900426877090128
+    ],
+    "mean_steps": 796405.8333333334,
+    "max_steps": 1208986,
+    "mean_price": [
+      1.740542781351009,
+      1.7405858341375793
+    ],
+    "mean_profit": [
+      0.31260210009149386,
+      0.3117221391456249
+    ],
+    "fixed_price_frequency": 0.5,
+    "symmetric_fixed_frequency": 0.5,
+    "two_cycle_frequency": 0.3333333333333333,
+    "long_cycle_frequency": 0.16666666666666666,
+    "equilibrium_frequency": 0.0,
+    "q_loss_on_path": 0.09793801104256164,
+    "q_loss_all_states": 0.1049116645821111,
+    "max_bellman_residual": 9.49906819869284e-12,
+    "incentive_compatible_frequency": 0.6666666666666666,
+    "alpha": 0.05,
+    "beta": 1e-05,
+    "game": {}
+  },
+  "grid_a005_b020": {
+    "sessions": 30,
+    "converged": 30,
+    "censored": 0,
+    "mean_delta": 0.7265052941043985,
+    "std_delta": 0.03369936376989211,
+    "ci95_delta": [
+      0.7139217448678772,
+      0.7390888433409197
+    ],
+    "mean_steps": 589915.6666666666,
+    "max_steps": 699644,
+    "mean_price": [
+      1.7144343414952208,
+      1.7136686169340791
+    ],
+    "mean_profit": [
+      0.3057497231341752,
+      0.30656601059440886
+    ],
+    "fixed_price_frequency": 0.4666666666666667,
+    "symmetric_fixed_frequency": 0.4666666666666667,
+    "two_cycle_frequency": 0.36666666666666664,
+    "long_cycle_frequency": 0.16666666666666666,
+    "equilibrium_frequency": 0.0,
+    "q_loss_on_path": 0.08210517026855667,
+    "q_loss_all_states": 0.09191373733125668,
+    "max_bellman_residual": 9.49818002027314e-12,
+    "incentive_compatible_frequency": 0.6333333333333333,
+    "alpha": 0.05,
+    "beta": 2e-05,
+    "game": {}
+  },
+  "grid_a015_b010": {
+    "sessions": 30,
+    "converged": 30,
+    "censored": 0,
+    "mean_delta": 0.8186377540689602,
+    "std_delta": 0.12391778030097501,
+    "ci95_delta": [
+      0.7723660944511341,
+      0.8649094136867863
+    ],
+    "mean_steps": 971793.2,
+    "max_steps": 1306629,
+    "mean_price": [
+      1.7857482072497233,
+      1.7768578068229757
+    ],
+    "mean_profit": [
+      0.3127724694167737,
+      0.32065335364944764
+    ],
+    "fixed_price_frequency": 0.5,
+    "symmetric_fixed_frequency": 0.16666666666666666,
+    "two_cycle_frequency": 0.3,
+    "long_cycle_frequency": 0.2,
+    "equilibrium_frequency": 0.0,
+    "q_loss_on_path": 0.1685433867265844,
+    "q_loss_all_states": 0.1917890382505236,
+    "max_bellman_residual": 9.473311024521536e-12,
+    "incentive_compatible_frequency": 0.6666666666666666,
+    "alpha": 0.15,
+    "beta": 1e-05,
+    "game": {}
+  },
+  "grid_a015_b020": {
+    "sessions": 30,
+    "converged": 30,
+    "censored": 0,
+    "mean_delta": 0.7708850276530035,
+    "std_delta": 0.06909907014558717,
+    "ci95_delta": [
+      0.7450830108163629,
+      0.7966870444896441
+    ],
+    "mean_steps": 549214.2666666667,
+    "max_steps": 712162,
+    "mean_price": [
+      1.7457506309264832,
+      1.7491348874708055
+    ],
+    "mean_profit": [
+      0.3126865972563077,
+      0.30979775826259814
+    ],
+    "fixed_price_frequency": 0.26666666666666666,
+    "symmetric_fixed_frequency": 0.23333333333333334,
+    "two_cycle_frequency": 0.23333333333333334,
+    "long_cycle_frequency": 0.5,
+    "equilibrium_frequency": 0.0,
+    "q_loss_on_path": 0.16022297231257956,
+    "q_loss_all_states": 0.1729161904977222,
+    "max_bellman_residual": 9.490186414495838e-12,
+    "incentive_compatible_frequency": 0.6,
+    "alpha": 0.15,
+    "beta": 2e-05,
+    "game": {}
+  },
+  "grid_a025_b004": {
+    "sessions": 30,
+    "converged": 30,
+    "censored": 0,
+    "mean_delta": 0.8244508076280038,
+    "std_delta": 0.14740838373315268,
+    "ci95_delta": [
+      0.7694076125324517,
+      0.8794940027235559
+    ],
+    "mean_steps": 2092277.4666666666,
+    "max_steps": 2733013,
+    "mean_price": [
+      1.792163072448683,
+      1.7872120019931097
+    ],
+    "mean_profit": [
+      0.3158216638280579,
+      0.31893609024275277
+    ],
+    "fixed_price_frequency": 0.6,
+    "symmetric_fixed_frequency": 0.26666666666666666,
+    "two_cycle_frequency": 0.23333333333333334,
+    "long_cycle_frequency": 0.16666666666666666,
+    "equilibrium_frequency": 0.0,
+    "q_loss_on_path": 0.13466421106038187,
+    "q_loss_all_states": 0.16275333393161764,
+    "max_bellman_residual": 9.486633700817038e-12,
+    "incentive_compatible_frequency": 0.9,
+    "alpha": 0.25,
+    "beta": 4e-06,
+    "game": {}
+  },
+  "grid_a025_b010": {
+    "sessions": 30,
+    "converged": 30,
+    "censored": 0,
+    "mean_delta": 0.8212381368778131,
+    "std_delta": 0.12741043360960067,
+    "ci95_delta": [
+      0.7736622990809777,
+      0.8688139746746485
+    ],
+    "mean_steps": 949840.9,
+    "max_steps": 1181496,
+    "mean_price": [
+      1.7779556528805158,
+      1.7760182774848565
+    ],
+    "mean_profit": [
+      0.31557357839531114,
+      0.3184480641402704
+    ],
+    "fixed_price_frequency": 0.7,
+    "symmetric_fixed_frequency": 0.26666666666666666,
+    "two_cycle_frequency": 0.23333333333333334,
+    "long_cycle_frequency": 0.06666666666666667,
+    "equilibrium_frequency": 0.0,
+    "q_loss_on_path": 0.15013772357753602,
+    "q_loss_all_states": 0.18173243971363018,
+    "max_bellman_residual": 9.459100169806334e-12,
+    "incentive_compatible_frequency": 0.9333333333333333,
+    "alpha": 0.25,
+    "beta": 1e-05,
+    "game": {}
+  },
+  "grid_a025_b020": {
+    "sessions": 30,
+    "converged": 30,
+    "censored": 0,
+    "mean_delta": 0.7975379555384502,
+    "std_delta": 0.11550714234784891,
+    "ci95_delta": [
+      0.754406879746372,
+      0.8406690313305284
+    ],
+    "mean_steps": 593484.1,
+    "max_steps": 709365,
+    "mean_price": [
+      1.7882990848540072,
+      1.7788812877917752
+    ],
+    "mean_profit": [
+      0.3098223143343403,
+      0.3187689625561191
+    ],
+    "fixed_price_frequency": 0.23333333333333334,
+    "symmetric_fixed_frequency": 0.1,
+    "two_cycle_frequency": 0.3,
+    "long_cycle_frequency": 0.4666666666666667,
+    "equilibrium_frequency": 0.0,
+    "q_loss_on_path": 0.1930577557686131,
+    "q_loss_all_states": 0.21478972755596862,
+    "max_bellman_residual": 9.49818002027314e-12,
+    "incentive_compatible_frequency": 0.6,
+    "alpha": 0.25,
+    "beta": 2e-05,
+    "game": {}
+  },
+  "three_firms": {
+    "sessions": 30,
+    "converged": 30,
+    "censored": 0,
+    "mean_delta": 0.6417116496021097,
+    "std_delta": 0.04640011322404982,
+    "ci95_delta": [
+      0.6243855625779788,
+      0.6590377366262405
+    ],
+    "mean_steps": 3039731.933333333,
+    "max_steps": 3413841,
+    "mean_price": [
+      1.6956486344546369,
+      1.6931392827891671,
+      1.6988478078926854
+    ],
+    "mean_profit": [
+      0.20370606477678832,
+      0.20365333957531945,
+      0.20308305112055577
+    ],
+    "fixed_price_frequency": 0.26666666666666666,
+    "symmetric_fixed_frequency": 0.13333333333333333,
+    "two_cycle_frequency": 0.3333333333333333,
+    "long_cycle_frequency": 0.4,
+    "alpha": 0.15,
+    "beta": 4e-06,
+    "game": {
+      "costs": [
+        1,
+        1,
+        1
+      ],
+      "quality": [
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "four_firms": {
+    "sessions": 10,
+    "converged": 2,
+    "censored": 8,
+    "mean_delta": 0.5767640590764291,
+    "std_delta": 0.04471830901710164,
+    "ci95_delta": [
+      0.17498599319975716,
+      0.9785421249531011
+    ],
+    "mean_steps": 8228951.5,
+    "max_steps": 10000000,
+    "mean_price": [
+      1.7084277314194576,
+      1.6929359351919646,
+      1.6929359351919646,
+      1.7084277314194576
+    ],
+    "mean_profit": [
+      0.15400313168416074,
+      0.1567607228882709,
+      0.1443272848862786,
+      0.1467726850980167
+    ],
+    "fixed_price_frequency": 0.0,
+    "symmetric_fixed_frequency": 0.0,
+    "two_cycle_frequency": 1.0,
+    "long_cycle_frequency": 0.0,
+    "alpha": 0.15,
+    "beta": 4e-06,
+    "game": {
+      "costs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "quality": [
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "memoryless": {
+    "sessions": 1000,
+    "converged": 1000,
+    "censored": 0,
+    "mean_delta": 0.17222317121803674,
+    "std_delta": 0.16238498316495867,
+    "ci95_delta": [
+      0.16214642213481145,
+      0.18229992030126202
+    ],
+    "mean_steps": 172167.945,
+    "max_steps": 229094,
+    "mean_price": [
+      1.5232338411378965,
+      1.5241250338198986
+    ],
+    "mean_profit": [
+      0.24281037385430268,
+      0.2425040279128062
+    ],
+    "fixed_price_frequency": 1.0,
+    "symmetric_fixed_frequency": 0.5,
+    "two_cycle_frequency": 0.0,
+    "long_cycle_frequency": 0.0,
+    "equilibrium_frequency": 0.32,
+    "q_loss_on_path": 0.007335353492245257,
+    "q_loss_all_states": 0.007335353492245257,
+    "max_bellman_residual": 0.0,
+    "incentive_compatible_frequency": 0.406,
+    "alpha": 0.25,
+    "beta": 0.0001,
+    "game": {
+      "k": 0,
+      "discount": 0
+    }
+  }
+}

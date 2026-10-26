@@ -1,0 +1,1199 @@
+{
+  "source_archive": "data/source/provided_replication_package.zip",
+  "source_sha256": "b4d16499f35de197c929465001cd23650a99f84244e0378290444d7284f8a9b1",
+  "selection": "All Fortran and R sources, all InputParameters and small text/R data <=100KB, README/license and software-guide documentation, plus original baseline.exe; other executables and large result files omitted",
+  "included": [
+    {
+      "path": "AER-software-guide/LICENSE.txt",
+      "bytes": 1699,
+      "sha256": "608a33e9bda1bf75e5e36c325f29e4bc5ef7bb160e84098a7340598212b3c8e9"
+    },
+    {
+      "path": "AER-software-guide/README.pdf",
+      "bytes": 262620,
+      "sha256": "bb46ee81570f8dba480baae57f862715631cd97fd87544f009b9fb6fd7c93e44"
+    },
+    {
+      "path": "AER-software-guide/Table replication online appendix.pdf",
+      "bytes": 95892,
+      "sha256": "813f40d1f1bd9e1e8627de9a84c7ef522284bf8a6566b76664f494b16c5c9320"
+    },
+    {
+      "path": "AER-software-guide/Table replication paper.pdf",
+      "bytes": 82203,
+      "sha256": "44f3674e2a7691bd0fafa5b5e87b3c8fe5d53328995b3044e8590606ac74a3e5"
+    },
+    {
+      "path": "AER_fcode/baseline/ConvergenceResults.f90",
+      "bytes": 10123,
+      "sha256": "d1634cb33ffe3673466f0cf7668bf26b02363251ccffea7f546ddecf1cf01ecc"
+    },
+    {
+      "path": "AER_fcode/baseline/DetailedAnalysis.f90",
+      "bytes": 17639,
+      "sha256": "b274f9758eed0f7692aa5d5667c5d7ebb0555964d3e4fc1dc52d23c167f7bbae"
+    },
+    {
+      "path": "AER_fcode/baseline/EquilibriumCheck.f90",
+      "bytes": 23968,
+      "sha256": "9d2d77f6ace031c864eb92f9bf30371ed99c2eb4f5e2caea0e3af1a960f58ca0"
+    },
+    {
+      "path": "AER_fcode/baseline/ImpulseResponse.f90",
+      "bytes": 35784,
+      "sha256": "40e8f43b6a6b13c9d02f074576e240d3983e6205ceb1442a0249c80347c5f7be"
+    },
+    {
+      "path": "AER_fcode/baseline/LearningSimulation.f90",
+      "bytes": 15637,
+      "sha256": "56255e2a85903fce6f5311fd2ca6058981334230cb72ec34c862360134808b7f"
+    },
+    {
+      "path": "AER_fcode/baseline/LearningTrajectory.f90",
+      "bytes": 12035,
+      "sha256": "6d5a42fcc6442507839cd57e8c1a2a0d046fea200102776f8ed2f696c3788d55"
+    },
+    {
+      "path": "AER_fcode/baseline/PI_routines.f90",
+      "bytes": 13243,
+      "sha256": "f9e479450329c978ba3b4d78ecbe3aef84b878fdc0a6404c3d7536cd7c15afa1"
+    },
+    {
+      "path": "AER_fcode/baseline/QGapToMaximum.f90",
+      "bytes": 19622,
+      "sha256": "703c38add3c3685e6febaafc665deb140f2cfc359855efda2022722eead53e11"
+    },
+    {
+      "path": "AER_fcode/baseline/QL_routines.f90",
+      "bytes": 19094,
+      "sha256": "c1c8ef5274e176a263743a8a111c9b875515b9b86ccdbf57ae7804b0e59312cd"
+    },
+    {
+      "path": "AER_fcode/baseline/baseline.exe",
+      "bytes": 1299456,
+      "sha256": "8595810dd4b6cce1ad5518f057ccc46baa3f6b05414a818aea2d934cfa5715e0"
+    },
+    {
+      "path": "AER_fcode/baseline/generic_routines.f90",
+      "bytes": 9506,
+      "sha256": "f8335b3bfcc5e24067fb8b737c53efaa58b623bd1847b4ce037d41cec8932c01"
+    },
+    {
+      "path": "AER_fcode/baseline/globals.f90",
+      "bytes": 9423,
+      "sha256": "d93ce69bb79ed48cac6868094ab979cb36b83770fa7f0918461bf9d15a7294fe"
+    },
+    {
+      "path": "AER_fcode/baseline/main.f90",
+      "bytes": 5436,
+      "sha256": "0b1490bf99546c47e09cb34cd23ea75e08968dfc5e31ed9bcdf52f2b0c83503d"
+    },
+    {
+      "path": "AER_fcode/entryexit/ConvergenceResults.f90",
+      "bytes": 14123,
+      "sha256": "d8b9b99b2c14b7c5b32f35b925022eb8297b5f24e63bee9644b2e90d5438e1f1"
+    },
+    {
+      "path": "AER_fcode/entryexit/DetailedAnalysis.f90",
+      "bytes": 18964,
+      "sha256": "1b06aed1f7afe29dd573276223deb8b47e22721f49f9cdd05a87e238c8b6cea8"
+    },
+    {
+      "path": "AER_fcode/entryexit/EquilibriumCheck.f90",
+      "bytes": 8358,
+      "sha256": "e68b5f84d1cfdb77af0b9bcedc66d186dc746f7b172edbb61f5791f3aaaf2a09"
+    },
+    {
+      "path": "AER_fcode/entryexit/ImpulseResponse.f90",
+      "bytes": 10809,
+      "sha256": "da7d35634f8c77c11dd9021a814fff6721541cb6f7b462e84aa88f7d9956faf2"
+    },
+    {
+      "path": "AER_fcode/entryexit/LearningSimulation.f90",
+      "bytes": 17328,
+      "sha256": "f0afb8e007803b2c6cce2bb6aed0613b211b58371cef8bd5e681c39a12e6e143"
+    },
+    {
+      "path": "AER_fcode/entryexit/PI_routines.f90",
+      "bytes": 3808,
+      "sha256": "bc6a70ffffab4d0b7ab9d82713f3ddb3157123e404642278683fd3172f850ec3"
+    },
+    {
+      "path": "AER_fcode/entryexit/QGapToMaximum.f90",
+      "bytes": 7314,
+      "sha256": "f6efc62c99d52d3adba4021437c4ee7271c7c0ea35eb6506d237af9b9e85842e"
+    },
+    {
+      "path": "AER_fcode/entryexit/QL_routines.f90",
+      "bytes": 20616,
+      "sha256": "b1f4891d560a6c06fa90ea480eaedda7b012bb7d9be255f37f90e4d6e8139e6a"
+    },
+    {
+      "path": "AER_fcode/entryexit/generic_routines.f90",
+      "bytes": 9506,
+      "sha256": "f8335b3bfcc5e24067fb8b737c53efaa58b623bd1847b4ce037d41cec8932c01"
+    },
+    {
+      "path": "AER_fcode/entryexit/globals.f90",
+      "bytes": 8095,
+      "sha256": "d242b44a868121fdcbe45b45663d39487c990e49a7e6b6af5afa04359004473f"
+    },
+    {
+      "path": "AER_fcode/entryexit/main.f90",
+      "bytes": 2382,
+      "sha256": "1189b03c142e8b011c5cd15f6203525517f9140939e7e6e246a93ec8ab79d9e7"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/ConvergenceResults.f90",
+      "bytes": 10998,
+      "sha256": "747039133185ab3e876b51a779964b96765a7086f6283afe6c9a827f4a286c84"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/DetailedAnalysis.f90",
+      "bytes": 17707,
+      "sha256": "36b234630ff75fb475c0f9258ccc0642eb5c6797218cb84ddb5ca72e8ec2f99e"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/EquilibriumCheck.f90",
+      "bytes": 8358,
+      "sha256": "e68b5f84d1cfdb77af0b9bcedc66d186dc746f7b172edbb61f5791f3aaaf2a09"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/ImpulseResponse.f90",
+      "bytes": 10780,
+      "sha256": "a91f5be3addaed0199ae0e77fb2d604f13fa63f7272c9a5c7cafde4fccd2addc"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/LearningSimulation.f90",
+      "bytes": 15467,
+      "sha256": "231fd264de46f1d3a23fd26ef97295d0677fbf1754d8483b5f5767faaedca67e"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/PI_routines.f90",
+      "bytes": 4742,
+      "sha256": "10de59c796c72e32408b13c344fb46c78123d40fb8129ec5e913ef0e89912b33"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/QGapToMaximum.f90",
+      "bytes": 7314,
+      "sha256": "f6efc62c99d52d3adba4021437c4ee7271c7c0ea35eb6506d237af9b9e85842e"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/QL_routines.f90",
+      "bytes": 20980,
+      "sha256": "7752f13bdf7315f724c972cbb47d828e580ab4b680244ff9fd18b5f48e56ac21"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/generic_routines.f90",
+      "bytes": 9506,
+      "sha256": "f8335b3bfcc5e24067fb8b737c53efaa58b623bd1847b4ce037d41cec8932c01"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/globals.f90",
+      "bytes": 9849,
+      "sha256": "1700aeba296850a9d9144fb849846505c94c025cfec68fe73ced216be85b6db7"
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/main.f90",
+      "bytes": 3106,
+      "sha256": "26ed6d241de78a031fe8088e8c09976ccb7cb635d42e81cf2a28e4cb7574272c"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A1/A_InputParameters.txt",
+      "bytes": 1034624,
+      "sha256": "7a6a46eedc99715ac3d0ad0168fb126df0fcd4edd886e8ea9fa1ad07cfd28029"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A1/figure_A1.R",
+      "bytes": 1755,
+      "sha256": "dbd8b8931226f468e60ce801114e4d79a0f8dc76243f581c5869db597b4cbbb6"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A10/A_InputParameters.txt",
+      "bytes": 2306,
+      "sha256": "a2bd10c93f9a12798c532947401da7dd990cdce95cc36f909b873edfd0a55c65"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A10/figure_A10.R",
+      "bytes": 3468,
+      "sha256": "9ae8d3fdda0d34bc5d6bb031df3214628acdb9b46aefd072c2e1135778e598f2"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A10/figure_A10_load_data.R",
+      "bytes": 4083,
+      "sha256": "55c47283395d91c2f887a03521d793bfb6173df5482a6d5611b2a01e7788edd8"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A10/figure_A11.R",
+      "bytes": 2343,
+      "sha256": "702b286496603ee34037b9ca5f70dcc52c4939d77df9f5c8169501f47b75fd1a"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A10/figure_A11_load_data.R",
+      "bytes": 4144,
+      "sha256": "9c0887abe10382f348d1ec415026ce14fc21214b01f53b950c9e483a826ebcf9"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A11/A_InputParameters.txt",
+      "bytes": 2281,
+      "sha256": "b5cd1270fbae1f730b7cff84b85c5cb4f91e9004443c0e394f78f91842b78159"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A11/figure_A11.R",
+      "bytes": 2343,
+      "sha256": "702b286496603ee34037b9ca5f70dcc52c4939d77df9f5c8169501f47b75fd1a"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A11/figure_A11_load_data.R",
+      "bytes": 4144,
+      "sha256": "9c0887abe10382f348d1ec415026ce14fc21214b01f53b950c9e483a826ebcf9"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A12/A_InputParameters.txt",
+      "bytes": 2306,
+      "sha256": "a2bd10c93f9a12798c532947401da7dd990cdce95cc36f909b873edfd0a55c65"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A12/figure_A12.R",
+      "bytes": 2272,
+      "sha256": "d99c64c81de529add14792759f3f4cc707b068a1e05c11df2c5b802224667b74"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A12/figure_A12_load_data.R",
+      "bytes": 4085,
+      "sha256": "5ea5b2d5309eaba7e9372164563410d8c1067e68c246b327d8173f66f7056d3f"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A13/A_InputParameters.txt",
+      "bytes": 2306,
+      "sha256": "a2bd10c93f9a12798c532947401da7dd990cdce95cc36f909b873edfd0a55c65"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A13/figure_A13.R",
+      "bytes": 3800,
+      "sha256": "e282d59946173425b213a31800e5de631baa73ef3da4178cae25f7223053e7e2"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A13/figure_A13_load_data.R",
+      "bytes": 4094,
+      "sha256": "b2595591cc837e05741d4928b5a2a9f8b1f6eb0c80988769b98737fcf7ac0c15"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A14/A_InputParameters.txt",
+      "bytes": 2844,
+      "sha256": "681273eb4dce9b1bf3022c5f6083ed9a46b94cd8fe1f13fa51d8796da5262ade"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A14/figure_A14.R",
+      "bytes": 2429,
+      "sha256": "5f71a51dd97ed91ef74336b24bdab7886cbbd7ca5eb5a5c04696647293427654"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A15/A_InputParameters.txt",
+      "bytes": 971100,
+      "sha256": "c39274099de9b7a452a14f585d9d5cf5052b073c7d9012e48867781a29f5cb2a"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A15/figure_A15.R",
+      "bytes": 1290,
+      "sha256": "397c7daa03c8f34653460ae1a0d9a19b5e62697e75ed8250018cececaa6cc61f"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A2/A_InputParameters.txt",
+      "bytes": 2307,
+      "sha256": "026bb3325121a8fbe742e28e6fa987900fce5b8421a244f8e4d29707214f7bf6"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A2/figure_A2.R",
+      "bytes": 2757,
+      "sha256": "0460766da8f75df09d5b8fa9d969801fb14176f41081ea5bc03d601004d03f7e"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A3/A_InputParameters.txt",
+      "bytes": 1034624,
+      "sha256": "06d76ffe263bff83cabd4279d5283acd4fbd0b84f35f2d560757f2847a57b734"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A3/figure_A3.R",
+      "bytes": 1207,
+      "sha256": "1b2a6f1630493a9a68b11b568a7ffe3f6222fd1baed08268f962d861a61a40a8"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A4/A_InputParameters.txt",
+      "bytes": 1034598,
+      "sha256": "5efddafd7adb1f0eaadb421c0b6d634d5020978d91c5d0c5b0a42e38a9524a45"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A4/figure_A4.R",
+      "bytes": 1174,
+      "sha256": "5e5fea711e304b4ff851ef1900bf42657fd25a5a24f0771172fc64620359daee"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A5/A_InputParameters.txt",
+      "bytes": 1034598,
+      "sha256": "5efddafd7adb1f0eaadb421c0b6d634d5020978d91c5d0c5b0a42e38a9524a45"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A5/figure_A5.R",
+      "bytes": 1183,
+      "sha256": "e912db6959bab312d0198b22ab0a7d4b0c0a2960bff72e92c90ba797ed6a5f9b"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A6/A_InputParameters.txt",
+      "bytes": 1034598,
+      "sha256": "91c599dc42ee69b9a42aff9093b9b0ee12a991c15cde6f08f460a5b113782c00"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A6/figure_A6.R",
+      "bytes": 1221,
+      "sha256": "af2bfc1c8633e393facf608eb5dd6e54bdae370961bc6599a538e5f14115ed56"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A7/A_InputParameters.txt",
+      "bytes": 1034598,
+      "sha256": "91c599dc42ee69b9a42aff9093b9b0ee12a991c15cde6f08f460a5b113782c00"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A7/figure_A7.R",
+      "bytes": 1244,
+      "sha256": "df96871f0711280abe340c6ea33bc8aecbdee0640bf2f1f40d1f2f1664fdacd0"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A8/A_InputParameters.txt",
+      "bytes": 2310,
+      "sha256": "e12b31c2626eecb4fffea31da1419b7490cb0104e6baf2cf58a5daa56000ec39"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A8/figure_A8.R",
+      "bytes": 2441,
+      "sha256": "d2054dfa411fbf99f4e79f869f43aeefe7a6e0c5f515bce07da22fbb6e0a7bbf"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A9/A_InputParameters.txt",
+      "bytes": 2306,
+      "sha256": "a2bd10c93f9a12798c532947401da7dd990cdce95cc36f909b873edfd0a55c65"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A9/figure_A9.R",
+      "bytes": 6211,
+      "sha256": "32bc0131094ebd3a69383709a6491e127e19ec49695b25dcabe5b2b751228f9a"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A9/figure_A9_load_data.R",
+      "bytes": 3983,
+      "sha256": "262dd0157302c2da769e8db897d2b92ee51934067a7c93d70fdf4941a06c407f"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A1/A_InputParameters.txt",
+      "bytes": 2296,
+      "sha256": "f03d9885ab07c48db8dea80ea0f6c0e1b33cb918ac3cb959f96687a91437f9d9"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A1/table_A1.R",
+      "bytes": 1071,
+      "sha256": "306fd407c1c66c6ac8f198c42a65512c9768bf13d946858c4157ee710d896808"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A1/table_A1.txt",
+      "bytes": 104,
+      "sha256": "d53113ed80f65cdb1501deb3b990dfbd4eaf62dcc9a97711302863a6c7acc970"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A10/A_InputParameters_1.txt",
+      "bytes": 2311,
+      "sha256": "affcf4a06182f66223f0f8489dd2f2ff3c46e9b2b3450ec6866de87611354c96"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A10/A_InputParameters_2.txt",
+      "bytes": 2311,
+      "sha256": "851c8a0c6fb6df21e66579ade43534d98c0ffbbefafb35348b8963b9f3f801bb"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A10/A_InputParameters_3.txt",
+      "bytes": 2313,
+      "sha256": "5d4e6da16c3d84daae79a70c350460af4c0b83f5579214f86e86f5310c923f5f"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A10/A_InputParameters_4.txt",
+      "bytes": 2311,
+      "sha256": "e738ab98d7667313211449347daae6e235b9fc72a1bec2a5349f3adb06cbd88a"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A10/A_InputParameters_5.txt",
+      "bytes": 2312,
+      "sha256": "891dea4adab9413ec526b3ea2f0087771caa0063436e0834dba2b82d528bc0f5"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A10/readme.txt",
+      "bytes": 458,
+      "sha256": "2855a767d7de622b78bbad72130588ad2645a553fa57555e12ea099e88a17bd3"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A10/table_A10.R",
+      "bytes": 2315,
+      "sha256": "33d27f5c8c5a8a1d2f1109d1be7bed1e466fb2482e7ce88e223693ce6c799d44"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A10/table_A10.txt",
+      "bytes": 688,
+      "sha256": "b24e37868432dec84ea9ee0773476c461932f904d4460c9cca38d4f0fc9e31be"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A10/table_A10_load_data.R",
+      "bytes": 4064,
+      "sha256": "85c0d476011882848cc84af53cd1412035f11c15667134858145e31c43325547"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A11/A_InputParameters_1.txt",
+      "bytes": 2311,
+      "sha256": "affcf4a06182f66223f0f8489dd2f2ff3c46e9b2b3450ec6866de87611354c96"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A11/A_InputParameters_2.txt",
+      "bytes": 2311,
+      "sha256": "3d4358f3a5894ce9d288c6982a9b18924592d2a7c8add9517024b08857e07c76"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A11/readme.txt",
+      "bytes": 449,
+      "sha256": "a8d12f2824a8c64986253cfef0d08661d24e1f054b0c2cd0b0d637fc14005d5b"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A11/table_A11.R",
+      "bytes": 2419,
+      "sha256": "b2ba4d68b4b16afc64a22f9c2e0cf1334572c2302d6c26b0884a050f96665cde"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A11/table_A11.txt",
+      "bytes": 178,
+      "sha256": "fd2110025e82392da0a448e5c1b277177f05a58258e38db1b82802caa80cc398"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A11/table_A11_load_data.R",
+      "bytes": 4024,
+      "sha256": "3067100c297e0eef8f9aa549326695c957c250cb90a1127c08c15e28642011c0"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A12/A_InputParameters.txt",
+      "bytes": 3686,
+      "sha256": "f25135c933c5675ad6e11fd4124fe8e802d4603ee5ce47201bfdd1de4c146e32"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A12/table_A12.R",
+      "bytes": 2770,
+      "sha256": "04d0eb062a6f8d3db684a1f77f15e6f4afbeb8816f6b6b32d24031e0e36b974f"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A12/table_A12.txt",
+      "bytes": 1428,
+      "sha256": "a2a5f9101348552e6d026e5ead9abe090a9339f7d6c0280d26441b0d5576e67f"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A12/table_A12_load_data.R",
+      "bytes": 4058,
+      "sha256": "12fb01c00f7b1fb958747bb3b88f241a23de4c243a68c0b2257bdd4bd37c8afa"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A13/A_InputParameters.txt",
+      "bytes": 2319,
+      "sha256": "085eb1ffc179be480f0a2a427db4b853973cb839a103765b2fb28f1da3f658e2"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A13/table_A13.R",
+      "bytes": 2542,
+      "sha256": "89f45abe116e60a4f1862f1143ccc054bc495a47c42c60c75f64c1cbb7a542e5"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A13/table_A13.txt",
+      "bytes": 156,
+      "sha256": "e0ab8fa6a899d1a1e61eec6df3075c190495d9ef09e026753326b3d31db1fd09"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A13/table_A13_load_data.R",
+      "bytes": 4427,
+      "sha256": "dd3b760ca10821fd15f3b4759f2a01d2a2f5ff6af7ed3dbab719a3569c1d9266"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A14/A_InputParameters.txt",
+      "bytes": 2686,
+      "sha256": "a59365ab2e4c42f67143139f9afb8a6b63577ace24c77e5029c8040a66b85b56"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A14/table_A14.R",
+      "bytes": 2502,
+      "sha256": "238331aa8a33abf26de3675632b63c5ed429eec5e6ba2e6eacca54646629f58a"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A14/table_A14.txt",
+      "bytes": 474,
+      "sha256": "f7341bba2888473059ce9ae195d92392df6b1d92163d9b89876ca5fc45357cad"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A14/table_A14_load_data.R",
+      "bytes": 4427,
+      "sha256": "c006820957b4b8a65f976acc462a8b1d753373c5bc619ea56a85d28c41dee88f"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A15/A_InputParameters_1.txt",
+      "bytes": 2311,
+      "sha256": "d6ed08999f4b48fc0a6c981d6120e5676241cb62a44e5d0eeff6915723f3f006"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A15/A_InputParameters_2.txt",
+      "bytes": 2314,
+      "sha256": "2ede020d02165578d335bff4ec487b4785c5d3cff456935c3bf1601f736218e5"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A15/readme.txt",
+      "bytes": 760,
+      "sha256": "523bfd3e5c8d0a62da93f29dfca5198212738fb17fe80bc78264cf2d22c65c11"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A15/table_A15.R",
+      "bytes": 2620,
+      "sha256": "8928f081a9849ebbd6a455b235c915d308149f9891d461660c02ec35011f7641"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A15/table_A15.txt",
+      "bytes": 190,
+      "sha256": "41f14dc819eae44534b0611dc75db120d277b96b92dd9a3f9d7861d1fe517a06"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A15/table_A15_load_data.R",
+      "bytes": 4391,
+      "sha256": "4fe44d67898fb68f630bec682ae7b32e32e469ad9e00df717ea2923e80f33c9a"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A16/A_InputParameters.txt",
+      "bytes": 2686,
+      "sha256": "a59365ab2e4c42f67143139f9afb8a6b63577ace24c77e5029c8040a66b85b56"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A16/table_A16.R",
+      "bytes": 2659,
+      "sha256": "173e05a1c5b098677cd926ffc96c5340b690811629a67cd3e8fc5a07adef7207"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A16/table_A16.txt",
+      "bytes": 474,
+      "sha256": "f7341bba2888473059ce9ae195d92392df6b1d92163d9b89876ca5fc45357cad"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A16/table_A16_load_data.R",
+      "bytes": 4399,
+      "sha256": "455b135f568d567f367ce7e7960e501fb3cb64d51960c71591fc4f6101543dad"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A17/A_InputParameters_1.txt",
+      "bytes": 2311,
+      "sha256": "d6ed08999f4b48fc0a6c981d6120e5676241cb62a44e5d0eeff6915723f3f006"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A17/A_InputParameters_2.txt",
+      "bytes": 2314,
+      "sha256": "2ede020d02165578d335bff4ec487b4785c5d3cff456935c3bf1601f736218e5"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A17/readme.txt",
+      "bytes": 760,
+      "sha256": "523bfd3e5c8d0a62da93f29dfca5198212738fb17fe80bc78264cf2d22c65c11"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A17/table_A17.R",
+      "bytes": 2550,
+      "sha256": "4c5838cfdcc18bc2d4e72851de7db3f6a7054c9325d85eb7fab4314d2155f54c"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A17/table_A17.txt",
+      "bytes": 190,
+      "sha256": "41f14dc819eae44534b0611dc75db120d277b96b92dd9a3f9d7861d1fe517a06"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A17/table_A17_load_data.R",
+      "bytes": 4413,
+      "sha256": "4bf10ba65896bf49a648eb2e6d453d0aca23a46c00c88e13827e23fc3eff7ec1"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/A_InputParameters.txt",
+      "bytes": 2305,
+      "sha256": "41ddd2fd3abde87e7d23d9416790bf541feb4e0ffcff89a0e4fa8412ea2ec596"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/A_convResults.txt",
+      "bytes": 6569,
+      "sha256": "8d9879238a10284bfb494668972beb0e5e269103ffc27a024e086db17b9154ae"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/A_res.txt",
+      "bytes": 1443,
+      "sha256": "a4a0541235d679701521558d3003766c7fae9993d170433a40902c456a54075b"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/table_A2.R",
+      "bytes": 2413,
+      "sha256": "6df3090ea2fce9f985e9c3bde67db15208e71f14f43e92e6481da5e10159f730"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/table_A2_load_data.R",
+      "bytes": 3999,
+      "sha256": "c3834c0bca55f6253bc99578ee66daa210e22608593b7a24bc368f9bafe39810"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/table_A2_panel_a.txt",
+      "bytes": 1551,
+      "sha256": "8465896c919b7a0d3ce9466f4280a952262f76b4ab213a24ec9ebd136020f9bd"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/table_A2_panel_b.txt",
+      "bytes": 1551,
+      "sha256": "e9d246bb734c76e82f4e7f90815fcafac6a4422d75e760ff301b60fee91a924f"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/A_InputParameters.txt",
+      "bytes": 2305,
+      "sha256": "41ddd2fd3abde87e7d23d9416790bf541feb4e0ffcff89a0e4fa8412ea2ec596"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/A_convResults.txt",
+      "bytes": 6569,
+      "sha256": "8d9879238a10284bfb494668972beb0e5e269103ffc27a024e086db17b9154ae"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/A_res.txt",
+      "bytes": 1443,
+      "sha256": "a4a0541235d679701521558d3003766c7fae9993d170433a40902c456a54075b"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/table_A3.R",
+      "bytes": 2350,
+      "sha256": "5393482e11231a4663113a566de7ce8ac4e8814f6056028aaa4782ef9881e5ae"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/table_A3_load_data.R",
+      "bytes": 4001,
+      "sha256": "c581e9c9eb5d181da54c5ebf9540a03cad711cb280b0cfe2e64c5a3801df84be"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/table_A3_panel_a.txt",
+      "bytes": 1551,
+      "sha256": "b9d0d95a32fe634816d7b20954cb69cdd50f56010cc01b9b9578c612dd080ea3"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/table_A3_panel_b.txt",
+      "bytes": 1551,
+      "sha256": "83d7a40bd2ed63bc512a86ed0b8c787c5caa7eabb617918ec455fbb5e3dc6aea"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A4/A_InputParameters.txt",
+      "bytes": 2968,
+      "sha256": "b55c5ab53283ee15501800b3eb15382325de9c76a6805b08cb457a33af935cb3"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A4/table_A4.R",
+      "bytes": 1485,
+      "sha256": "f420a68c48b336b38a9f409ce332adfef07fde1fb73e424e49eb31493d3dde11"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A4/table_A4.txt",
+      "bytes": 208,
+      "sha256": "68df9702860d29bcf8b72154449bd01200e69f3ed72de842989a5c53064bda2c"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A4/table_A4_load_data.R",
+      "bytes": 4076,
+      "sha256": "47bad6d58e52a8f3c17a2778cdb84b9f607879b69cc300a90cc97de52b0a6039"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A5/A_InputParameters.txt",
+      "bytes": 2799,
+      "sha256": "30fdad713d04d0000b89ccee781b188be9d1b587864a5edb3926fdf34ddba700"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A5/table_A5.R",
+      "bytes": 3660,
+      "sha256": "c3e1d490cf613e6da500f87907a1daf36256d8b53ce7d5d230359c7f7582532c"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A5/table_A5.txt",
+      "bytes": 929,
+      "sha256": "bd13c59d0f9762a46c89f9dd47c557f9dbcb8c669221045bd4dc6e6d0d63fd30"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A5/table_A5_load_data.R",
+      "bytes": 9600,
+      "sha256": "c074ff0a84f02e1a58f88dde6a67cac8b25ee3a254d3b72036aa1d508193a082"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A6/A_InputParameters.txt",
+      "bytes": 2645,
+      "sha256": "4b8c37b9d5a081be34b345eeb2109411475fc564f5cc75cd326d4440d5e28592"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A6/table_A6.R",
+      "bytes": 2668,
+      "sha256": "0f98f79a259ac35b3e80c729285dd1dcca42cc4b59a5ca67315396a3bbaa366d"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A6/table_A6.txt",
+      "bytes": 446,
+      "sha256": "e3bdebf80b25ac63d7f6b46358c30d5e733dfc2b5cb1f1f840dfc7c4be74a6d1"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A6/table_A6_load_data.R",
+      "bytes": 6549,
+      "sha256": "0e0ef13c39e2defc2c1641b531d3e6d35c5511ee315cb294572c2abf8b6b559e"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A7/A_InputParameters.txt",
+      "bytes": 2102,
+      "sha256": "3f4c97c2aab67de04fb410b1f28be30aa86ea2a7b3ce3e3a8c8c4438c6295abd"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A7/table_A7.R",
+      "bytes": 2772,
+      "sha256": "a4e3548f6b0d9ce753741b62405cebab30768a94963fbcc4342d856715783b30"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A7/table_A7.txt",
+      "bytes": 190,
+      "sha256": "bfca28be8bfa62d13dfb64ed8ffa722267c907b499e634bc8d92bc3440c8a723"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A8/A_InputParameters_mu.txt",
+      "bytes": 3245,
+      "sha256": "9b8261a2e93b58adb9267cacfb8c18b2b124be397890d974e2d9b3108bfe6c62"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A8/A_InputParameters_mu0.txt",
+      "bytes": 2288,
+      "sha256": "e0aa7d65627006a3b4304ddf6ec02a3babdf315b0f2247dd26abde790e7ca1bd"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A8/readme.txt",
+      "bytes": 991,
+      "sha256": "a7474810da01e2ad8ee2ac867eed9073628acf73a97970048a9998d703a110cf"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A8/table_A8.R",
+      "bytes": 2344,
+      "sha256": "b031e8d2af39d246d7af04fe49fc95adefa37b2e9b62d7ca385a7352479f5fcc"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A8/table_A8.txt",
+      "bytes": 830,
+      "sha256": "8ebbee352e7bc1e6e3d33ed00f05bc8f9796fb4991da349217bdce2ab992a288"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A8/table_A8_load_data.R",
+      "bytes": 4021,
+      "sha256": "59f3193417f72ebd10533fb18bbc071dd8d4121b74d6002c4ad9044087ab2aa6"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A9/A_InputParameters_expl.txt",
+      "bytes": 2697,
+      "sha256": "e844045a3b376554e3fd46f33a3828147021175c11aee21a47ef676a06237dda"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A9/A_InputParameters_noexpl.txt",
+      "bytes": 2313,
+      "sha256": "eff6fc0cb03f2d22328c272a1a53f9039b84d5e5cc9ef4ed30890c9da2e90594"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A9/readme.txt",
+      "bytes": 1004,
+      "sha256": "6bf715f2ecc1c985c516f117a44ecb2b0fdef253cc38f6517c95db2ce7a09444"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A9/table_A9.R",
+      "bytes": 2399,
+      "sha256": "c6d29f7db5c40c7e07811039c088497ae2b6d516609ddb6ea648dfafd3b388b7"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A9/table_A9.txt",
+      "bytes": 565,
+      "sha256": "1a97c47944462aabf0929bd319e60332c31ab6b7281f60fe37bd8b6b6431981c"
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A9/table_A9_load_data.R",
+      "bytes": 5055,
+      "sha256": "5616527e11bcbd2207d92d7308d363799efa86135cccea9bb70566e633f50b8a"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_1/A_InputParameters.txt",
+      "bytes": 1034627,
+      "sha256": "a6ea11ab888b9a10e30d445e0c8b2db87dc0b1a59715f52d629722b5a764919e"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_1/figure_1.R",
+      "bytes": 1197,
+      "sha256": "c21c8f44fdca4015c724172054671b597b6fea18bec791d4f3aaf83ab995eeec"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_10/A_InputParameters.txt",
+      "bytes": 2314,
+      "sha256": "ef3a59017616dca237c3411d44b8ece3c8865161fefbdde1c428af5defa3543b"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_10/figure_10.R",
+      "bytes": 2783,
+      "sha256": "7a24db805145eac797d1804cbb460c427b225ce00b948f27b606231b9fa0364d"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_11/A_InputParameters.txt",
+      "bytes": 2310,
+      "sha256": "41e5fcd2eed06b7c264e589468fd6d32eff2df4f7a9e6b878fc53db58807adfd"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_11/figure_11.R",
+      "bytes": 2684,
+      "sha256": "919562e374cb76f19c256a9d62cb8532e31bc6a0ca4a89e663fa94e7db10bbc8"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_11/trained_Q/A_InputParameters.txt",
+      "bytes": 2307,
+      "sha256": "6bd7a4f0c586d3400b6c18e8df496625637d186222d6d349aa352ccc758af453"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_2/A_InputParameters.txt",
+      "bytes": 1034622,
+      "sha256": "6dc3c1f1bed21bf971c95fc8c1f416a07a368dfb04d0f77687368cf4c4e1f008"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_2/figure_2.R",
+      "bytes": 1224,
+      "sha256": "b25eeba40e59e01b20e9302f488be553a7a0b5b0c200b3824acfc5ca141707e0"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_3/A_InputParameters.txt",
+      "bytes": 13086,
+      "sha256": "25c13b1498cea3f197d569384d4d9fda923053c7d568be4d53f5fcaca2e7c0b6"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_3/figure_3.R",
+      "bytes": 946,
+      "sha256": "f3cf1a9eb465ee35421178eecc8ba031dd96118c8b1c6bd6ecb9382eab95aaeb"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_4/A_InputParameters.txt",
+      "bytes": 2310,
+      "sha256": "0064ab27f2a8ba4a65f2531ad4d82ff9a776fa38f649836e17ea315111aa21d9"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_4/figure_4.R",
+      "bytes": 2391,
+      "sha256": "66a1e2a675606e2541746d958e67a6eb5d689f646a3e368007aaf9f74d356e91"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_5/A_InputParameters.txt",
+      "bytes": 2305,
+      "sha256": "135a069a243fb9cef285eebcc0a53b656b61253b2eb074c904b757a0eeb394b9"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_5/figure_5.R",
+      "bytes": 6047,
+      "sha256": "80aac8a5a67e148caf47bb6012cf8376e3d4684c6e3a7bf480bbc32cf6c6f630"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_5/figure_5_load_data.R",
+      "bytes": 3975,
+      "sha256": "5c9af0afa7a262ddb4445ed6944e3bf681f34aa60344617bc2ad5e6988e5ec3f"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_6/A_InputParameters.txt",
+      "bytes": 2310,
+      "sha256": "45c336b8f9ec0986a88f0e83765092c6f18a1af90595380df3b55ed3f6cc47aa"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_6/figure_6.R",
+      "bytes": 2404,
+      "sha256": "14d26280a5549580a3142c9b580c2ecb4dab471cdc991faae88ffc1320c1c15a"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_7/A_InputParameters.txt",
+      "bytes": 1034622,
+      "sha256": "6dc3c1f1bed21bf971c95fc8c1f416a07a368dfb04d0f77687368cf4c4e1f008"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_7/figure_7.R",
+      "bytes": 1246,
+      "sha256": "3afff2289f6855d00a1f2a5a76e6e23fd426a14139933c21c4d38e7bff1dc015"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_8/A_InputParameters.txt",
+      "bytes": 2311,
+      "sha256": "d2813c956a682722c194036394736a243f2dc94d8dd2d1e5a830692375a649fd"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_8/coords_lfr_betS0.Rdata",
+      "bytes": 1593,
+      "sha256": "e89f001e7aae010b97065231d382e0cfd59397d3eb41ce61b924ae200038e254"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_8/figure_8.R",
+      "bytes": 6721,
+      "sha256": "89e3a642afb99a009c402c4ee64caa98174d4aeebf1094e9490dc6341b61d472"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_8/figure_8_load_data.R",
+      "bytes": 3438,
+      "sha256": "2d2f411dc82e6ad43a7405092b6b148da4233fa331add5bbed3ccb59149ba073"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_9/A_InputParameters.txt",
+      "bytes": 2311,
+      "sha256": "d2813c956a682722c194036394736a243f2dc94d8dd2d1e5a830692375a649fd"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_9/figure_9.R",
+      "bytes": 4200,
+      "sha256": "2af5829383c50d2b7de2f9c592fdc75d140d65c202c65d98f4358a4166d586d5"
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_9/figure_9_load_data.R",
+      "bytes": 3437,
+      "sha256": "83eaadc0e0a71e0259688f73950dc99a217c3b4668fcf223da7f35280d508b81"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_I/A_InputParameters.txt",
+      "bytes": 2281,
+      "sha256": "b5cd1270fbae1f730b7cff84b85c5cb4f91e9004443c0e394f78f91842b78159"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_I/table_I.R",
+      "bytes": 8416,
+      "sha256": "9babd2b213f2aef4609e1efe06152a9366e01139fc45f3c19c9922b1df6a41b5"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_I/table_I.txt",
+      "bytes": 853,
+      "sha256": "53387072b03ef1da6ce5232996307972adfa2b9829aaa733a00478248538e56f"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_II/A_InputParameters.txt",
+      "bytes": 2306,
+      "sha256": "a2bd10c93f9a12798c532947401da7dd990cdce95cc36f909b873edfd0a55c65"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_II/table_II.R",
+      "bytes": 2412,
+      "sha256": "6a1844fdee83ac3d05e6d0beae6363528b5d9d21f658c3a4e3dda39cf1c7ae40"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_II/table_II_load_data.R",
+      "bytes": 3998,
+      "sha256": "517b134ff5514d684202829b5c9ad6a4c25f1df2568be3e2058cb194f76743bc"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_II/table_II_panel_a.txt",
+      "bytes": 1551,
+      "sha256": "8465896c919b7a0d3ce9466f4280a952262f76b4ab213a24ec9ebd136020f9bd"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_II/table_II_panel_b.txt",
+      "bytes": 1551,
+      "sha256": "e9d246bb734c76e82f4e7f90815fcafac6a4422d75e760ff301b60fee91a924f"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_III/A_InputParameters.txt",
+      "bytes": 2306,
+      "sha256": "a2bd10c93f9a12798c532947401da7dd990cdce95cc36f909b873edfd0a55c65"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_III/table_III.R",
+      "bytes": 2351,
+      "sha256": "744db98f691db146c4736e6bd9b215891c55adde0825d983e0d7d218c9a0da00"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_III/table_III_Panel_a.txt",
+      "bytes": 1551,
+      "sha256": "b9d0d95a32fe634816d7b20954cb69cdd50f56010cc01b9b9578c612dd080ea3"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_III/table_III_Panel_b.txt",
+      "bytes": 1551,
+      "sha256": "83d7a40bd2ed63bc512a86ed0b8c787c5caa7eabb617918ec455fbb5e3dc6aea"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_III/table_III_load_data.R",
+      "bytes": 4000,
+      "sha256": "ad1ab9f52c7efa326e71dddbcc37f7250d68ae56430305338da983b824c4fe3b"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_IV/A_InputParameters.txt",
+      "bytes": 2794,
+      "sha256": "8b31bb35581a8eccae51072e4e746163f6dee84c5b2db3415891db600b93d5be"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_IV/table_IV.R",
+      "bytes": 1366,
+      "sha256": "513d4bd54bed9c26403fd0780563e1f6d4b2d5f34b892e01bf9856198ec8c266"
+    },
+    {
+      "path": "AER_paper_Rscripts/table_IV/table_IV.txt",
+      "bytes": 322,
+      "sha256": "ec3a72a9c0ba385e5ffa71e2fb3842dc86bf62a600575af16f28d53feb41b524"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1699,
+      "sha256": "608a33e9bda1bf75e5e36c325f29e4bc5ef7bb160e84098a7340598212b3c8e9"
+    },
+    {
+      "path": "README.pdf",
+      "bytes": 262620,
+      "sha256": "bb46ee81570f8dba480baae57f862715631cd97fd87544f009b9fb6fd7c93e44"
+    },
+    {
+      "path": "Table replication online appendix.pdf",
+      "bytes": 95892,
+      "sha256": "813f40d1f1bd9e1e8627de9a84c7ef522284bf8a6566b76664f494b16c5c9320"
+    },
+    {
+      "path": "Table replication paper.pdf",
+      "bytes": 82203,
+      "sha256": "44f3674e2a7691bd0fafa5b5e87b3c8fe5d53328995b3044e8590606ac74a3e5"
+    }
+  ],
+  "omitted": [
+    {
+      "path": "AER_fcode/entryexit/entryexit.exe",
+      "bytes": 940032
+    },
+    {
+      "path": "AER_fcode/stochasticdemand/stochasticdemand.exe",
+      "bytes": 943616
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A1/figure_A1.pdf",
+      "bytes": 42392
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A10/figure_A10.pdf",
+      "bytes": 6973
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A10/figure_A11.pdf",
+      "bytes": 4325
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A11/figure_A11.pdf",
+      "bytes": 4325
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A12/figure_A12.pdf",
+      "bytes": 4466
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A13/figure_A13.pdf",
+      "bytes": 5665
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A14/figure_A14.pdf",
+      "bytes": 5596
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A15/figure_A15.pdf",
+      "bytes": 34510
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A2/figure_A2.pdf",
+      "bytes": 24203
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A3/figure_A3.pdf",
+      "bytes": 38281
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A4/figure_A4.pdf",
+      "bytes": 40724
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A5/figure_A5.pdf",
+      "bytes": 36692
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A6/figure_A6.pdf",
+      "bytes": 35802
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A7/figure_A7.pdf",
+      "bytes": 35551
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A8/figure_A8.pdf",
+      "bytes": 5555
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/figure_A9/figure_A9.pdf",
+      "bytes": 9387
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/A_det_1.txt",
+      "bytes": 185882001
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/InfoExperiment_1.txt",
+      "bytes": 1892470
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A2/det.Rdata",
+      "bytes": 5069753
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/A_det_1.txt",
+      "bytes": 185882001
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/InfoExperiment_1.txt",
+      "bytes": 1892470
+    },
+    {
+      "path": "AER_online_appendix_Rscripts/table_A3/det.Rdata",
+      "bytes": 5069753
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_1/figure_1.pdf",
+      "bytes": 37120
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_10/figure_10.pdf",
+      "bytes": 108406
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_11/figure_11.pdf",
+      "bytes": 6600
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_2/figure_2.pdf",
+      "bytes": 35873
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_3/figure_3.pdf",
+      "bytes": 5028
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_4/figure_4.pdf",
+      "bytes": 5569
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_5/figure_5.pdf",
+      "bytes": 6329
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_6/figure_6.pdf",
+      "bytes": 5572
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_7/figure_7.pdf",
+      "bytes": 36683
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_8/figure_8.pdf",
+      "bytes": 18836
+    },
+    {
+      "path": "AER_paper_Rscripts/figure_9/figure_9.pdf",
+      "bytes": 11996
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "total_cells": 56,
+  "matched_at_three_decimals": 56,
+  "all_match_at_three_decimals": true,
+  "reference_source": "Calvano et al. (2020), Artificial Intelligence, Algorithmic Pricing, and Collusion, Table 1, AER 110(10), p.3277",
+  "reference_method": "Manual transcription of 8 printed rows x 7 printed columns, including Nash column",
+  "caveat": "Agreement at reported precision, not equality of unrounded values; original Table I R script labels off-path Q-loss as all states",
+  "source_table_sha256": "8099ca11ac45166023190b8a15ffc6faf2c55135f07ebd27575ab05c68406b6b",
+  "source_paper_pdf_sha256": "8ac3f4b6777dbbb1332728925a5123196f1846473841992574f6c519891a54d8",
+  "script_sha256": "73e9b0d950322de61a974bf67006aae719da133485793bd077a96a3031bd340c",
+  "comparison_csv_sha256": "3fe8de1d7cc615abdd7502406312ceab505a6487ce580dc4c396e4fce57fdcff"
+}

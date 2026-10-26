@@ -1,0 +1,153 @@
+{
+  "engine": "Unmodified supplied official Windows executable",
+  "sessions": 1000,
+  "converged": 1000,
+  "censored": 0,
+  "mean_delta": 0.84872,
+  "population_std_delta": 0.11198,
+  "equilibrium_frequency": 0.505,
+  "ci95_mean_delta": [
+    0.8417628951101187,
+    0.8556674542010941
+  ],
+  "ci_note": "Student-t Monte Carlo mean interval from recomputed session values and sample SD; native mean is rounded to 5 decimals",
+  "recomputed_from_original_strategies": {
+    "sessions": 1000,
+    "mean_delta": 0.8487151746556064,
+    "std_delta": 0.11203472346368683,
+    "equilibrium_frequency": 0.505,
+    "q_loss_on_path": 0.0016566113464258913,
+    "std_q_loss_on_path": 0.0036640760678942276,
+    "q_loss_off_path": 0.018289436903491125,
+    "std_q_loss_off_path": 0.006163880506528846,
+    "q_loss_all_states": 0.018178901894230985,
+    "std_q_loss_all_states": 0.006130073629313423,
+    "fixed_price_frequency": 0.643,
+    "symmetric_fixed_frequency": 0.277,
+    "asymmetric_fixed_frequency": 0.366,
+    "two_cycle_frequency": 0.238,
+    "long_cycle_frequency": 0.119
+  },
+  "native_vs_recomputed_gain_error": 4.82534439361082e-06,
+  "native_vs_recomputed_equilibrium_error": 0.0,
+  "maximum_printed_profit_rounding_error": 4.971262245301311e-06,
+  "benchmark": {
+    "price_nash": [
+      1.47293,
+      1.47293
+    ],
+    "price_monopoly": [
+      1.92498,
+      1.92498
+    ],
+    "profit_nash": [
+      0.22292806391717349,
+      0.22292806391717349
+    ],
+    "profit_monopoly": [
+      0.3374904595082646,
+      0.3374904595082646
+    ],
+    "price_grid": [
+      [
+        1.4277250000000001,
+        1.466472142857143,
+        1.5052192857142859,
+        1.5439664285714287,
+        1.5827135714285716,
+        1.6214607142857145,
+        1.6602078571428573,
+        1.6989550000000002,
+        1.737702142857143,
+        1.776449285714286,
+        1.8151964285714288,
+        1.8539435714285717,
+        1.8926907142857146,
+        1.9314378571428574,
+        1.9701849999999999
+      ],
+      [
+        1.4277250000000001,
+        1.466472142857143,
+        1.5052192857142859,
+        1.5439664285714287,
+        1.5827135714285716,
+        1.6214607142857145,
+        1.6602078571428573,
+        1.6989550000000002,
+        1.737702142857143,
+        1.776449285714286,
+        1.8151964285714288,
+        1.8539435714285717,
+        1.8926907142857146,
+        1.9314378571428574,
+        1.9701849999999999
+      ]
+    ]
+  },
+  "table1_all_states_label": "Official Table I R script reads QGapNotOnPath (off-path), not QGapTot",
+  "native_truth_sources": {
+    "mean_delta": "A_convResults.txt::avgPrGain",
+    "population_std_delta": "A_convResults.txt::sePrGain (population SD, not SE)",
+    "equilibrium_frequency": "A_ec.txt::FlagEQOnPath_Len00"
+  },
+  "executable_sha256": "8595810dd4b6cce1ad5518f057ccc46baa3f6b05414a818aea2d934cfa5715e0",
+  "input_sha256": "d049eb5d04853b700b57ff09e1816797d7a081162f4e417a29cd707b4b7cc0d1",
+  "native_process_command": [
+    "baseline.exe"
+  ],
+  "native_working_directory": "results\\original_baseline",
+  "reproducible_wrapper_command": [
+    "python",
+    "experiments/run_original.py",
+    "--sessions",
+    "1000",
+    "--cores",
+    "3",
+    "--output",
+    "results\\original_baseline",
+    "--runtime-path",
+    "C:\\Program Files\\MATLAB\\R2025b\\bin\\win64",
+    "--timeout",
+    "600"
+  ],
+  "wrapper_command_note": "Reconstructed from saved execution/input settings; original raw process uses baseline.exe in this directory",
+  "two_session_seed_prefix_verification": {
+    "available": true,
+    "compared_sessions": 2,
+    "all_equal": true,
+    "sessions": [
+      {
+        "session": 1,
+        "all_equal": true,
+        "checks": {
+          "policy": true,
+          "cycle_states": true,
+          "cycle_actions": true,
+          "printed_profits": true,
+          "episodes": true,
+          "converged": true
+        }
+      },
+      {
+        "session": 2,
+        "all_equal": true,
+        "checks": {
+          "policy": true,
+          "cycle_states": true,
+          "cycle_actions": true,
+          "printed_profits": true,
+          "episodes": true,
+          "converged": true
+        }
+      }
+    ],
+    "smoke_info_sha256": "3beaaddb486bff3860e1f1a3eeb7a04ff612528af2e6afd565ff2a6128558740",
+    "baseline_info_sha256": "fb44af322c9c08734a1070bd0943347f9bf2f0739a844e19f7a71391e375cdc3",
+    "smoke_cores": 1,
+    "baseline_cores": 3
+  },
+  "approximate_max_training_periods": 3065250.0,
+  "training_periods_precision_note": "Approximation only: InfoExperiment stores episode counts to 0.01; period reconstruction can round by about 125 periods",
+  "reconstruction": "Five-decimal benchmark inputs and sequential grid addition exactly follow author PI_routines; raw logit exp formula"
+}

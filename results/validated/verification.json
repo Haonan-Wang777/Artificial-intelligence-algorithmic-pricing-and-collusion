@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "sessions_checked": 2280,
+  "seeded_baseline_reruns": 3,
+  "exact_policy_history_q_replay": true,
+  "sha256_verified": true,
+  "source_sha256_verified": true,
+  "aggregate_recomputed": true,
+  "elapsed_seconds": 10.258176299976185
+}

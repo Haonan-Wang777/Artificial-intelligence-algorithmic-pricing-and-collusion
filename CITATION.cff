@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite this independent reproduction project and the original Calvano et al. (2020) article."
+title: "Calvano Pricing Reproduction: An Auditable Independent Python Implementation"
+type: software
+authors:
+  - name: "Reproduction contributors"
+version: 1.0.0
+date-released: 2026-10-23
+license: MIT
+abstract: >-
+  Independent Python reproduction of the pricing game and tabular Q-learning
+  experiments in Calvano et al. (American Economic Review, 2020), with fixed
+  seeds, saved session records, source auditing, and explicit scope limitations.
+keywords:
+  - algorithmic pricing
+  - collusion
+  - Q-learning
+  - computational economics
+  - reproducibility
+references:
+  - type: article
+    title: "Artificial Intelligence, Algorithmic Pricing, and Collusion"
+    authors:
+      - family-names: Calvano
+        given-names: Emilio
+      - family-names: Calzolari
+        given-names: Giacomo
+      - family-names: Denicolò
+        given-names: Vincenzo
+      - family-names: Pastorello
+        given-names: Sergio
+    journal: "American Economic Review"
+    year: 2020
+    volume: 110
+    issue: 10
+    start: 3267
+    end: 3297
+    doi: 10.1257/aer.20190623

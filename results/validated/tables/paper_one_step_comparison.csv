@@ -1,0 +1,4 @@
+metric,paper,reproduced,signed_error,absolute_error,relative_error,source,author_definition_verified,caveat
+paper_one_step_loss_on_path,0.002,0.0015897955773418564,-0.0004102044226581437,0.0004102044226581437,0.20510221132907183,"Table 1, All column, p.3277",True,Table I label All States reads QGapNotOnPath (off-path); author flag exact max equality; not full dynamic Nash test
+paper_one_step_loss_off_path,0.018,0.018099835238427522,9.983523842752376e-05,9.983523842752376e-05,0.005546402134862432,"Table 1, All column, p.3277",True,Table I label All States reads QGapNotOnPath (off-path); author flag exact max equality; not full dynamic Nash test
+author_one_step_no_profitable_deviation_frequency,0.505,0.474,-0.031000000000000028,0.031000000000000028,0.06138613861386144,"Table 1, All column, p.3277",True,Table I label All States reads QGapNotOnPath (off-path); author flag exact max equality; not full dynamic Nash test
